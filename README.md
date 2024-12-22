@@ -17,8 +17,20 @@ For each combination of p and q, the script constructs payoff matrices for both 
 
 The results of these calculations are stored in the matrix my_array. A color mapping is applied to link each strategic profile to a unique color: blue for 'X', red for 'Y', green for 'Z', yellow for 'W', and orange for 'D'. Using the Pillow library, a blank 500×500 image is created, and the matrix values are translated into pixel colors to generate a visual representation of the strategic landscape.
 
-Finally, the image is saved as output.png and displayed. This visualization provides an intuitive way to understand the distribution of strategic profiles across the probability space, offering insights into the dynamics of the game under study. By blending mathematical rigor with visual clarity, this script serves as a powerful tool for exploring and illustrating game theory concepts.
+Finally, the image is saved as output.png and displayed. This visualization provides an intuitive way to understand the distribution of strategic profiles across the probability space, offering insights into the dynamics of the game under study. By blending mathematical rigor with visual clarity, this script serves as a powerful tool for exploring and illustrating game theory concepts.ű
 
+## Example Output
+Below is an example of the generated strategic profile visualization (Offensive Dummy vs Offensive Veto and high rewards in both sides):
+
+<div>
+  <img src="odummyovetohigh.png" alt="Strategic Profile Visualization" width="20%">
+</div>
+Afterward, we made additional modifications to the output PNG file using an image editor to enhance its interpretability (Dummy vs Dummy).
+<div>
+  <img src="dummydummy.png" alt="Strategic Profile Visualization" width="25%">
+</div>
+
+## Paper 
 The Cyber Alliance Game: How Alliances Influence Cyber-Warfare: https://arxiv.org/abs/2410.05953
 
 
